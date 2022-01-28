@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>The Greatest RGB Guessing Game</title>
+</head>
+
+<body>
+  <header>
+    <h1>The Great <span style="color: red;">R</span><span style="color: green;">G</span><span
+        style="color: blue;">B</span> Guessing Game!!
+    </h1>
+    <p class="between">Pair the code with it's color!!</p>
+    <button class="btn again" onClick="window.location.reload();">Again!</button>
+    <div class="difficulty">
+      <span class="diff-menu">Difficulty</span>
+      <div class="difficulty-btns">
+        <button class="btn diff diff2">2x2</button>
+        <button class="btn diff diff3">3x3</button>
+        <button class="btn diff diff5">5x5</button>
+      </div>
+    </div>
+    <div class="random-rgb-color" style="text-transform: uppercase;">Choose difficulty</div>
+  </header>
+  <main>
+    <div class="left">
+      <div class="randomColoredBtns"></div>
+    </div>
+    <section class="right">
+      <p class="message">Start guessing...</p>
+
+      <div class="answer">
+        <p>The answer was:</p><br>
+      </div>
+      <br>
+      <p class="label-score">❤️ Lives: <span class="score"></span></p>
+
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

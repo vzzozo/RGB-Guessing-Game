@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #eee;
+  background-color: #222;
+}
+
+body h1 {
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+body header .random-rgb-color {
+  background: #eee;
+  color: #3f3f3f;
+  font-size: 2rem;
+  padding: 3rem 1rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+}
+
+body header .between {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+body header .again {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+body header .difficulty {
+  position: relative;
+  display: inline-block;
+}
+
+body header .difficulty .diff-menu {
+  position: absolute;
+  cursor: pointer;
+  background-color: #eee;
+  color: #222;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  top: 1rem;
+  left: 22rem;
+}
+
+body header .difficulty .difficulty-btns {
+  display: none;
+  position: absolute;
+  background-color: #eee;
+  top: 7rem;
+  left: 22rem;
+  z-index: 1;
+}
+
+body header .difficulty .difficulty-btns .diff {
+  border-bottom: 5px solid #222;
+  padding: 2rem 3rem;
+  font-size: 2.5rem;
+}
+
+body header .difficulty:hover .difficulty-btns {
+  display: block;
+}
+
+body main {
+  height: 65vh;
+  color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body main .randomColoredBtns {
+  width: 50rem;
+  height: 50rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  text-align: center;
+  align-items: center;
+}
+
+body main .randomColoredBtns .coloredBtn {
+  margin: 3.5px;
+  border: 2px solid black;
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 150px;
+  max-height: 150px;
+  cursor: pointer;
+}
+
+body main .right {
+  width: 52rem;
+  font-size: 2rem;
+}
+
+body main .right .message {
+  margin-bottom: 8rem;
+  height: 3rem;
+}
+
+body main .right .label-score {
+  margin-bottom: 2rem;
+}
+
+body main .right .answer {
+  display: none;
+}
+
+body main .right .answer .answerButton {
+  border: 2px solid black;
+  height: 75px;
+  width: 150px;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+body .btn {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+}
+
+body .btn:hover {
+  background-color: #ccc;
+}
+/*# sourceMappingURL=style.css.map */
